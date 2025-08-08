@@ -1,4 +1,4 @@
-module github.com/thienbui11/memrizr
+module github.com/thienbui11/MindStack
 
 go 1.24.5
 
