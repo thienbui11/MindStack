@@ -1,3 +1,5 @@
+@import 'cropperjs/dist/cropper.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -23,6 +25,10 @@
     @apply bg-gray-200 text-black text-opacity-70;
   }
 
+  .btn-red {
+    @apply bg-red-600 text-white;
+  }
+
   .btn-blue:hover {
     @apply bg-blue-600;
   }
@@ -30,4 +36,13 @@
   .btn-gray:hover {
     @apply bg-gray-300;
   }
+
+  .btn-red:hover {
+    @apply bg-red-400;
+  }
+}
+
+.cropper-view-box,
+.cropper-face {
+  border-radius: 50%;
 }
